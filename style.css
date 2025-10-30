@@ -1,0 +1,357 @@
+.open-sans {
+    font-family: "Open Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-variation-settings:
+        "wdth" 100;
+}
+
+.dark-2 {
+    color: #474747;
+}
+
+.btn {
+    background-color: #FD6E0A;
+    border: none;
+    border-radius: 5px;
+    font-size: 20PX;
+    font-weight: bold;
+    color: white;
+    padding: 18px 35px;
+    cursor: pointer;
+}
+
+.btn-2 {
+    box-sizing: border-box;
+    border: 1px solid rgba(253, 110, 10, 1);
+    border-radius: 5px;
+    background-color: white;
+    color: rgba(253, 110, 10, 1);
+    font-size: 20px;
+    font-weight: 700;
+    padding: 18px 35px;
+    cursor: pointer;
+}
+
+.header {
+
+    background-image: url(images/developer.png), url(images/header_bg.png), linear-gradient(to bottom, rgba(255, 248, 243, 1), rgba(255, 248, 243, 1));
+    background-repeat: no-repeat;
+    background-position: top left, bottom right;
+
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0px 200px;
+}
+
+.nav-title {
+    font-weight: 800;
+    font-size: 45px;
+}
+
+nav ul li {
+    list-style: none;
+    margin-right: 50px;
+}
+
+nav ul a {
+    text-decoration: none;
+    font-size: 20px;
+
+}
+
+nav ul {
+    display: flex;
+    align-items: center;
+}
+
+.banner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 35px 0 200px;
+}
+
+.banner-content {
+    margin-top: -200px;
+}
+
+.banner-content h4 {
+    color: rgba(71, 71, 71, 1);
+    font-size: 45px;
+    font-weight: 600;
+    margin-bottom: -50px;
+}
+
+.banner-content h1 {
+    color: rgba(24, 24, 24, 1);
+    font-size: 85px;
+    font-weight: 700;
+    margin-bottom: 0px;
+}
+
+.banner-content p {
+    color: rgba(117, 117, 117, 1);
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.banner-content button {
+    margin-top: 20px;
+}
+
+.banner-content .btn-2 {
+    margin-left: 20px;
+}
+
+.fa-solid {
+    margin-right: 15px;
+}
+
+.about-me {
+    max-width: 1140px;
+    border-radius: 10px;
+    background: rgba(255, 248, 243, 1);
+    margin: 0 auto;
+    padding: 130px 150px;
+    margin-top: 130px;
+}
+
+.about-me-text {
+    text-align: center;
+    box-sizing: border-box;
+    border: 1px solid rgba(0, 0, 0, 1);
+    background: rgba(255, 255, 255, 1);
+    padding: 30px;
+
+}
+
+.section-title {
+    color: rgba(24, 24, 24, 1);
+    font-size: 35px;
+    font-weight: 700;
+}
+
+.address {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    margin-top: 50px;
+
+}
+
+.address .description {
+    color: rgb(109, 108, 108);
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.address p {
+    font-weight: 400;
+    font-size: 20px;
+    color: rgba(117, 117, 117, 1);
+}
+
+.what-i-do {
+    max-width: 1140px;
+    margin: 0 auto;
+    margin-top: 90px;
+    text-align: center;
+}
+
+.skills {
+    display: flex;
+    gap: 15px;
+    margin-top: 60px;
+}
+
+.skills-card {
+    display: inline-block;
+    max-height: 521px;
+    max-width: 267px;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 1px 0.1px 5px #e4e0e0;
+    padding: 35px;
+    text-align: left;
+}
+
+.resume-summary {
+    display: block;
+    max-width: 1140px;
+    margin: 0 auto;
+    margin-top: 90px;
+    text-align: center;
+
+}
+
+.education-job-experience {
+    display: flex;
+    gap: 60px;
+    margin-top: 20px;
+}
+
+.headline h1 {
+    text-align: center;
+}
+
+.education-job-content h1 {
+    color: rgba(71, 71, 71, 1);
+    font-size: 30px;
+    font-weight: 700;
+}
+
+.education-job-content h2 {
+    color: rgba(71, 71, 71, 1);
+    font-size: 25px;
+    font-weight: 700;
+}
+
+.education-job-content .school-office {
+    color: rgba(117, 117, 117, 1);
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.education-job-content p {
+    color: rgba(117, 117, 117, 1);
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.resume .btn {
+    margin-top: 50px;
+}
+
+.footer {
+    background: rgba(255, 248, 243, 1);
+    margin-top: 50px;
+
+}
+
+
+.flex-footer {
+    display: flex;
+    padding: 20px;
+    gap: 200px;
+
+}
+
+.form [type="text"],
+[type="email"] {
+    height: 50px;
+    border-radius: 5px;
+    border: none;
+    display: block;
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 24px;
+    font-size: 17px;
+}
+
+.form textarea {
+    border-radius: 5px;
+    border: none;
+    display: block;
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 24px;
+    font-size: 17px;
+}
+
+
+
+
+
+.hide {
+    display: None;
+}
+
+
+@media screen and (max-width: 576px) {
+
+    .skills,
+    .education-job-experience
+    {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.flex-footer {
+    display: flex;
+    flex-direction: column-reverse;
+    gap: 20px;
+
+}
+
+.footer {
+    text-align: center;
+}
+
+.about-me {
+    margin: 0 auto;
+    padding: 20px;
+    margin-top: 130px;
+}
+
+.address {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    margin-top: 0;
+
+}
+
+nav {
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    margin: 0px;
+}
+
+nav ul li {
+    display: flex;
+    justify-content: flex-start;
+}
+
+
+.banner {
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+}
+
+.banner-content {
+    margin-top: 0;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+}
+
+.banner-img {
+    margin-right: 50px;
+    width: 100%;
+}
+
+.banner-content .btn-2 {
+    margin-left: 0px;
+}
+
+.header {
+    background-image: linear-gradient(to bottom, rgba(255, 248, 243, 1), rgba(255, 248, 243, 1));
+}
+
+
+}
+
+@media screen and (min-width:576px) and (max-width:871px) {
+    .skills {}
+}
